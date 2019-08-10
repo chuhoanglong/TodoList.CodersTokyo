@@ -19,6 +19,24 @@
   color: white;
 }
 
+.App .App-header .todolist{
+  border: 1px solid white;
+  width: 500px;
+}
+
+.App .App-header .todolist .addCV{
+  height: 50px;
+  width: 350px;
+  border: none;
+  background-color: #282c34;
+  color: white;
+  font-size: calc(10px + 2vmin);
+}
+
+.App .App-header .todolist .addCV:focus{
+  outline: none;
+}
+
 .App-link {
   color: #61dafb;
 }
